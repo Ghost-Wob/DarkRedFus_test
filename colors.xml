@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LangFile>
+	<!--
+							Fichier de couleurs d'interfaces
+		Syntaxe :
+			<entry key="nom de la clef">contenu</entry>
+			
+		Note :
+			Le nom du fichier (sans son extension) est automatiquement ajoute avant la clef. Par
+			exemple, pour faire reference aux clefs declarees dans le fichier "colors.xml", il
+			faudra ajouter "colors." aux noms des clefs
+			 Certaines grilles supportent le format AARRGGBB
+	-->
+	
+	<!--======================================================================-->
+	<!--                            Couleurs                                -->
+	<!--======================================================================-->
+
+	<entry key="grid.passiveSpell">0x7C6399</entry>
+	<entry key="multigrid.subselected">0x354c58</entry>
+	<entry key="tooltip.separator">0xFF9E9E9E</entry>
+	<entry key="shop.oldPrice">0x737373</entry>
+	<entry key="area.anomaly">0xb652d7</entry>
+	<entry key="area.bonus">0xb2d71b</entry>
+	<entry key="icon.green">0xb2d71b</entry>
+	<entry key="icon.grey">0xc7c7c5</entry>
+	<entry key="input.tooManyCharacters">0xeb0000</entry>
+	<entry key="progressbar.lifeThreshold">0xebc304</entry>
+	<entry key="progressbar.podsShop">0xcdffb6</entry>
+	<entry key="flag.quest6">0xeea8ff</entry>
+	<entry key="flag.quest7">0x00001a</entry>
+	<entry key="flag.quest8">0x16d225</entry>
+	<entry key="flag.quest9">0xff0212</entry>
+	<entry key="flag.quest10">0xfe20a9</entry>
+	<entry key="gameserver.type0">0x9eb11f</entry>
+	<entry key="gameserver.type1">0x371c12</entry>
+	<entry key="gameserver.type3">0x173c3c</entry>
+	<entry key="gameserver.type4">0x143b5c</entry>
+	<entry key="gameserver.type5">0xc36a00</entry>
+	
+	<entry key="ui.modalbg">0x000000</entry>
+	<entry key="ui.shadow">0x333333</entry>
+	<entry key="ui.shadow.dark">0x000000</entry>
+	<entry key="ui.light">0xffffff</entry>
+	<entry key="ui.bg.window">0x000000</entry>
+	<entry key="ui.wnd.border">0x6F6D61</entry>
+	
+	<entry key="chat.bgColor">0x0f0000</entry> <!-- EDIT-->
+	
+	<entry key="gamemenu.background">0x000000</entry>
+	<entry key="gamemenu.background.alpha">0.8</entry>
+	
+	<entry key="grid.title">0x790000</entry> <!-- EDIT-->
+	<entry key="grid.bg">0x300000</entry> <!-- EDIT-->
+	<entry key="grid.line">0x400000</entry> <!-- EDIT-->
+	<entry key="grid.over">0x800000</entry> <!-- EDIT-->
+	<entry key="grid.selected">0x4d0000</entry> <!-- EDIT-->
+	<entry key="grid.bg.green">0x770000</entry> <!-- EDIT-->
+	<entry key="grid.bg.red">0xff4b4b</entry>
+	
+	<entry key="multigrid.line">0x7b0000</entry> <!-- EDIT-->
+	<entry key="multigrid.subline">0x300000</entry> <!-- EDIT-->
+	<entry key="multigrid.selected">0x450000</entry> <!-- EDIT-->
+	
+	<entry key="radio.over">0x2c2e26</entry>
+	
+	<entry key="combobox.over">0x45950e0e</entry>
+	<entry key="combobox.selected">0x252c2d25</entry>
+		
+	<entry key="contextmenu.title">0x790000</entry> <!-- EDIT-->
+	<entry key="contextmenu.title.alpha">0.95</entry>
+	<entry key="contextmenu.over">0x950e0e</entry> <!-- EDIT-->
+	<entry key="contextmenu.over.alpha">0.5</entry>
+	<entry key="contextmenu.border">0xc05555</entry> <!-- EDIT-->
+	<entry key="contextmenu.bg">0x000000</entry>
+	<entry key="contextmenu.bg.alpha">0.95</entry>
+	<entry key="contextmenu.shadow">0x400000</entry> <!-- EDIT-->
+	<entry key="contextmenu.separator">0xa22020</entry> <!-- EDIT-->
+	<entry key="contextmenu.shortcut">0x961010</entry> <!-- EDIT-->
+	
+	<entry key="timeline.border_current_fighter">0xff0000</entry>	
+	
+	<entry key="tooltip.bg">0x000000</entry>
+	<entry key="tooltip.bg.alpha">0.95</entry>
+	<entry key="tooltip.border">0xc05555</entry> <!-- EDIT-->
+	<entry key="tooltip.border.activePin">0xffffff</entry>
+
+	<entry key="scrollbar.bg">0x080000</entry>
+	<entry key="scrollbar.bar">0x450000</entry>
+	
+	<!-- Couleurs de textes -->
+	
+	<entry key="shortcut">0xffffff</entry>
+	<entry key="text.help">0x6d6d6d</entry>
+	
+	<entry key="hyperlink.link">0xe8b8b8</entry> <!-- EDIT-->
+	<entry key="hyperlink.hover">0xaa2b2b</entry> <!-- EDIT-->
+	<entry key="hyperlink.warning">0xec0101</entry>
+	
+	<entry key="tooltip.text.red">0xc10000</entry>
+	<entry key="tooltip.text.orange">0xf17921</entry>
+	<entry key="tooltip.text.disabled">0x868686</entry>
+	<entry key="tooltip.text.violet">0xBB8BFF</entry>
+	
+	<entry key="hierarchy.moderator">0xff4343</entry>
+	<entry key="hierarchy.gamemaster_padawan">0xc79866</entry>
+	<entry key="hierarchy.gamemaster">0xc79866</entry>
+	<entry key="hierarchy.administrator">0x686fff</entry>
+	
+	<entry key="text.glow">0xffffff</entry>
+	<entry key="text.glow.dark">0x000000</entry>
+	<entry key="text.glow.light">0xfffae4</entry>
+	<entry key="text.glow.red">0xed6029</entry>
+	
+	<entry key="fight.text.multi">0xd07dd7</entry>
+	<entry key="fight.text.air">0x3ad866</entry>
+	<entry key="fight.text.water">0x3cc0dc</entry>
+	<entry key="fight.text.fire">0xff4f4f</entry>
+	<entry key="fight.text.earth">0xb17d33</entry>
+	<entry key="fight.text.neutral">0xa9a9a9</entry>
+	
+	<entry key="smithmagic.success">0x365218</entry>
+	<entry key="smithmagic.fail">0x5a2827</entry>
+	<entry key="tooltip.bonus">0x52AE3F</entry>
+	<entry key="tooltip.malus">0xCB685E</entry>
+		
+	<entry key="area.all">0xc7c7c5</entry>
+	<entry key="area.normal">0xc7c7c5</entry>
+	<entry key="area.weakened">0xd7b352</entry>
+	<entry key="area.sabotaged">0xb652d7</entry>
+	<entry key="area.vulnerable">0xd76552</entry>
+	<entry key="area.capturable">0xb2d71b</entry>
+	<entry key="area.all.dark">0x696968</entry>
+	<entry key="area.normal.dark">0x696968</entry>
+	<entry key="area.weakened.dark">0x8c7330</entry>
+	<entry key="area.sabotaged.dark">0x6f427e</entry>
+	<entry key="area.vulnerable.dark">0x7e4b42</entry>
+	<entry key="area.capturable.dark">0x5d6f14</entry>
+	
+	<!-- Divers -->
+	
+	<entry key="progressbar.background">0x000000</entry>
+	<entry key="progressbar.separator">0x550000</entry> <!-- EDIT-->
+    <entry key="progressbar.mount.separator">0x550000</entry> <!-- EDIT-->
+	<entry key="progressbar.blue">0x00c5e3</entry>
+	<entry key="progressbar.green">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.yellow">0x810000</entry> <!-- EDIT-->
+    <entry key="progressbar.pink">0x810000</entry> <!-- EDIT-->
+    <entry key="progressbar.red">0xe7074b</entry> <!-- EDIT-->
+    <entry key="progressbar.gold">0x810000</entry> <!-- EDIT-->
+    
+    <entry key="progressbar.damage">0x3c3c3c</entry>
+	<entry key="progressbar.lifePoints">0xc71c26</entry>
+	<entry key="progressbar.shieldPoints">0x9966CC</entry>
+	<entry key="progressbar.xp">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.guildXp">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.mountXp">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.incarnationXp">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.jobXp">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.honorPoints">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.pods">0x810000</entry> <!-- EDIT-->
+	<entry key="progressbar.energy">0x810000</entry> <!-- EDIT-->
+	
+	<entry key="map.search.grid.over">0x151513</entry>
+	<entry key="map.search.grid.over.alpha">0.6</entry>
+	
+	<entry key="flag.unknown">0xEE9933</entry>
+	<entry key="flag.right">0x44FF44</entry>
+	<entry key="flag.wrong">0xFF4444</entry>
+	<entry key="flag.quest1">0x16d225</entry>
+	<entry key="flag.quest2">0x00a9fe</entry>
+	<entry key="flag.quest3">0xfe20a9</entry>
+	<entry key="flag.quest4">0xffa91c</entry>
+	<entry key="flag.quest5">0x01fafe</entry>
+	
+
+</LangFile>
